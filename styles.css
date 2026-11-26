@@ -417,6 +417,22 @@ h1, h2, h3 {
     color: var(--muted);
 }
 
+.project-link,
+.project-note {
+    display: inline-block;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.project-link {
+    color: var(--accent-2);
+}
+
+.project-note {
+    color: var(--muted);
+}
+
 .contact-container {
     max-width: 760px;
     text-align: center;
