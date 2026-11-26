@@ -198,6 +198,21 @@
                 <div class="projects-grid">
                     <article class="project-card fade-up">
                         <div class="project-header">
+                            <p class="project-kicker">Azure Lakehouse Platform</p>
+                            <h3>E-Commerce Data Engineering Platform</h3>
+                            <p>ADF, ADLS Gen2, Databricks, Delta Lake, Terraform</p>
+                        </div>
+                        <ul class="project-list">
+                            <li>Built a Bronze, Silver, Gold lakehouse with watermark-based incremental ingestion from ADF into ADLS Gen2.</li>
+                            <li>Implemented idempotent Delta MERGE upserts, deduplication, and a data quality framework that quarantines bad records.</li>
+                            <li>Modeled a star schema (orders and payments facts plus dimensions) and provisioned Azure infrastructure with Terraform across dev, staging, and prod.</li>
+                            <li>Added CI/CD with GitHub Actions, structured logging, and a unit test suite.</li>
+                        </ul>
+                        <a class="project-link" href="https://github.com/Shubham81155/E-Commerce-Data-Engineering-Platform" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+                    </article>
+
+                    <article class="project-card fade-up">
+                        <div class="project-header">
                             <p class="project-kicker">Azure Data Engineering</p>
                             <h3>Healthcare Revenue Cycle Management Platform</h3>
                             <p>ADF, ADLS Gen2, Databricks, Delta Lake, Azure SQL</p>
@@ -208,19 +223,6 @@
                             <li>Produced curated fact and dimension tables to support KPI reporting on claims, payments, and provider activity.</li>
                         </ul>
                         <a class="project-link" href="https://github.com/Shubham81155/healthcare-rcm-data-engineering-platform" target="_blank" rel="noopener">View on GitHub &rarr;</a>
-                    </article>
-
-                    <article class="project-card fade-up">
-                        <div class="project-header">
-                            <p class="project-kicker">Azure ELT Pipeline</p>
-                            <h3>End-to-end data engineering pipeline</h3>
-                            <p>ADF, ADLS Gen2, Databricks, Synapse, Power BI</p>
-                        </div>
-                        <ul class="project-list">
-                            <li>Designed and implemented an end-to-end ELT pipeline to ingest data from REST APIs into Azure Data Lake Storage.</li>
-                            <li>Built Bronze, Silver, and Gold layers using Databricks and PySpark transformations.</li>
-                            <li>Developed Power BI dashboards with logging, monitoring, and data quality validation.</li>
-                        </ul>
                     </article>
 
                     <article class="project-card fade-up">
