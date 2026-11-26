@@ -194,7 +194,8 @@
         <section id="projects" class="section">
             <div class="container">
                 <p class="eyebrow fade-up">Projects</p>
-                <h2 class="section-title fade-up">Selected data engineering and analytics work.</h2>
+                <h2 class="section-title fade-up">Selected work across data and software.</h2>
+                <h3 class="projects-subhead fade-up">Data Engineering &amp; Analytics</h3>
                 <div class="projects-grid">
                     <article class="project-card fade-up">
                         <div class="project-header">
@@ -267,6 +268,47 @@
 
                     <article class="project-card fade-up">
                         <div class="project-header">
+                            <p class="project-kicker">End-to-End Analytics</p>
+                            <h3>Cricket Analysis: T20 World Cup 2022</h3>
+                            <p>JavaScript, Python, Power BI, DAX</p>
+                        </div>
+                        <ul class="project-list">
+                            <li>Built the full workflow: scraped match, batting, bowling, and player data from ESPNcricinfo, then cleaned the raw JSON in a Python notebook.</li>
+                            <li>Modeled fact and dimension tables as CSV data marts for reporting.</li>
+                            <li>Built Power BI dashboards to evaluate players by role and pick a best XI.</li>
+                        </ul>
+                        <a class="project-link" href="https://github.com/Shubham81155/Crickey_Team_Analysis" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+                    </article>
+
+                    <article class="project-card fade-up">
+                        <div class="project-header">
+                            <p class="project-kicker">Power BI Dashboard</p>
+                            <h3>Blinkit Sales Dashboard</h3>
+                            <p>Power BI, DAX</p>
+                        </div>
+                        <ul class="project-list">
+                            <li>Built an interactive dashboard of grocery sales across item types, outlet types, outlet sizes, and locations.</li>
+                            <li>Defined KPIs with DAX: total sales, average sales, average rating, and item count.</li>
+                            <li>Added slicers and donut and bar charts for quick, filter-driven analysis.</li>
+                        </ul>
+                        <a class="project-link" href="https://github.com/Shubham81155/Blinkit_Sales_Dashboard" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+                    </article>
+
+                    <article class="project-card fade-up">
+                        <div class="project-header">
+                            <p class="project-kicker">SQL Analytics</p>
+                            <h3>Retail Sales Analysis</h3>
+                            <p>SQL, Exploratory Data Analysis</p>
+                        </div>
+                        <ul class="project-list">
+                            <li>Created a retail sales database and table, then cleaned the data by finding and removing records with null values.</li>
+                            <li>Ran exploratory analysis and wrote SQL queries to answer business questions on sales, customers, and categories.</li>
+                        </ul>
+                        <a class="project-link" href="https://github.com/Shubham81155/retail-sales-insights-sql" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+                    </article>
+
+                    <article class="project-card fade-up">
+                        <div class="project-header">
                             <p class="project-kicker">Data Platform</p>
                             <h3>QCMS: Quality &amp; Continuous Improvement System</h3>
                             <p>PostgreSQL, Flask, SQLAlchemy, Redis</p>
@@ -276,6 +318,76 @@
                             <li>Developed KPI impact tracking, QC-tool analytics, and compliance audit reporting.</li>
                         </ul>
                         <span class="project-note">Private repository</span>
+                    </article>
+                </div>
+
+                <h3 class="projects-subhead fade-up">Software Development</h3>
+                <div class="projects-grid">
+                    <article class="project-card fade-up">
+                        <div class="project-header">
+                            <p class="project-kicker">Learning Platform</p>
+                            <h3>GuruGyan: multi-tenant LMS</h3>
+                            <p>TypeScript, PostgreSQL, SSO, SCORM</p>
+                        </div>
+                        <ul class="project-list">
+                            <li>Designed a learning platform where each organisation gets its own branding and isolated data, using PostgreSQL row-level security.</li>
+                            <li>Covers courses, quizzes, assignments, a weighted gradebook, and dashboards for learners, teachers, admins, and operators.</li>
+                            <li>Added OIDC/SAML single sign-on, TOTP multi-factor sign-in, an audit trail, and privacy tooling.</li>
+                        </ul>
+                        <span class="project-note">Private repository</span>
+                    </article>
+
+                    <article class="project-card fade-up">
+                        <div class="project-header">
+                            <p class="project-kicker">Civic Tech Platform</p>
+                            <h3>Smart Garbage Reporting System</h3>
+                            <p>Node.js, Express, PostgreSQL + PostGIS, React</p>
+                        </div>
+                        <ul class="project-list">
+                            <li>Built a system where citizens report garbage problems with a photo and location, and complaints are auto-assigned to a ward officer.</li>
+                            <li>Added SLA tracking with overdue escalation, a map view, analytics dashboards, and CSV exports.</li>
+                            <li>Included an audit log, two-step verification, and English/Hindi support.</li>
+                        </ul>
+                        <span class="project-note">Private repository</span>
+                    </article>
+
+                    <article class="project-card fade-up">
+                        <div class="project-header">
+                            <p class="project-kicker">Hotel Management System</p>
+                            <h3>NexStay</h3>
+                            <p>React, FastAPI, SQLAlchemy, MySQL</p>
+                        </div>
+                        <ul class="project-list">
+                            <li>Built a hotel management app with 8 modules: customers, rooms, bookings, payments, services, staff, reports, and an admin dashboard.</li>
+                            <li>Implemented double-booking prevention, automatic room-status updates, and automatic charge calculation.</li>
+                            <li>Exposed a REST API with auto-generated docs and session-based login.</li>
+                        </ul>
+                        <a class="project-link" href="https://github.com/Shubham81155/nexstay" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+                    </article>
+
+                    <article class="project-card fade-up">
+                        <div class="project-header">
+                            <p class="project-kicker">LLM Application</p>
+                            <h3>AI Chatbot</h3>
+                            <p>Python, FastAPI, LLM APIs, JavaScript</p>
+                        </div>
+                        <ul class="project-list">
+                            <li>Built a chatbot web app with a unified interface over multiple LLM providers: local models, OpenAI, Grok, and Gemini.</li>
+                            <li>Used a modular backend with environment-based provider selection and a lightweight HTML/CSS/JS frontend.</li>
+                        </ul>
+                        <a class="project-link" href="https://github.com/Shubham81155/Chatbot" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+                    </article>
+
+                    <article class="project-card fade-up">
+                        <div class="project-header">
+                            <p class="project-kicker">AI Agents</p>
+                            <h3>Code Builder</h3>
+                            <p>Python, LangGraph, Groq</p>
+                        </div>
+                        <ul class="project-list">
+                            <li>Built a multi-agent coding assistant (planner, architect, and coder agents) that turns a plain-language request into a working project, file by file.</li>
+                        </ul>
+                        <a class="project-link" href="https://github.com/Shubham81155/Code_builder" target="_blank" rel="noopener">View on GitHub &rarr;</a>
                     </article>
                 </div>
             </div>
